@@ -1680,7 +1680,7 @@ if(x.contains(&quot;Username&quot;)==true)
 	//Failure=false;
 		log.info(&quot;LogOut Page DownLoaded Succesfully&quot;);
      	log.info(&quot;====================================================================&quot;);
-     	print(&quot;Hi Mahesh Git Logout Successfully......Hi Amar.....?????&quot;);
+     	print(&quot;Hi Mahesh Git Logout Successfully......Hi Amar..ppp...?????&quot;);
 	}
 
 	else
