@@ -884,19 +884,16 @@ vars.put(&quot;city_AC&quot;,str[${__Random(6,10)}]);
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">
-//   /*
-
-import java.text.SimpleDateFormat; 
+            <stringProp name="script">import java.text.SimpleDateFormat; 
 import java.util.Date; 
 
-Date ddate = new Date(); 
-Date adate = new Date(); 
-adate.setDate(adate.getDate()+5); 
-ddate.setDate(ddate.getDate()); 
+Date ddate = new Date();
+Date adate = new Date();
+adate.setDate(adate.getDate()+5);
+ddate.setDate(ddate.getDate());
 SimpleDateFormat df = new SimpleDateFormat(&quot;MM/dd/yyyy&quot;); 
-String formattedDate = df.format(ddate); 
-String formattedDate1 = df.format(adate); 
+String formattedDate = df.format(ddate);
+String formattedDate1 = df.format(adate);
 vars.put(&quot;date_DD&quot;,formattedDate);
 vars.put(&quot;date_AD&quot;,formattedDate1);
 
@@ -910,7 +907,7 @@ String[] str=new String[21];
 vars.put(&quot;city_DC&quot;,str[${__Random(1,5)}]);
 vars.put(&quot;city_AC&quot;,str[${__Random(6,10)}]);
 
-//    */</stringProp>
+</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="WebTours_R04_A_FindFlight  ${__threadNum} , ${__iterationNum}" enabled="true">
